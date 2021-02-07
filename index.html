@@ -1,9 +1,153 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
+
+<head>
+	<title> Test Test </title>
+	<!--Meta Element-->
+	<meta name="description"content="This is a webpage about pokes" />
+	<!--description might show on the web search and can show about 150 words-->
+	<meta name="keywords"content="pokes, pokes">
+	<!--keywords would help rank web page location, usually not used, some foreign use it-->
+	<meta http-equiv="author"content="Zack Davis" />
+	<meta http-equiv="content-language"content="en-us" />
+    <style>
+        body {
+            background-color: skyblue;
+        }
+    </style>
+</head>
 <body>
-    <h1> HI </h1>
-    <iframe
-    src="htmltest.html" name="ouriframe" id="ouriframe">
-    </iframe>
+	<h1> Amazing Test </h1>
+	<p> Test test. <p>
+	<br>
+	<p> poke poke</p>
+	<h2> Reasons Why Poke </h2>
+	<p> Poke is poke </p>
+	<!--this is a comment test-->
+	<h2> How to add spaces </h3>
+	<p> poke &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; poke </p>
+	<!--&nbsp; is short for &NonBreakingSpace;-->
+	<h2> Lists </h4>
+	<p> unordered list </p>
+	<ul>
+		<li> 1 poke </li>
+		<li> 2 poke </li>
+	</ul>
+	<p> ordered list </p>
+	<ol>
+		<li> a poke </li>
+		<li> b poke </li>
+	</ol>
+	<!--<ul> = unordered, <ol> = ordered list, <li> = list item-->
+	<h2> Tables </h5>
+	<table>
+		<tr>
+			<th> the regular pokes &nbsp;&nbsp;&nbsp; </th>
+			<th> the mega pokes &nbsp;&nbsp;&nbsp; </th>
+			<th> the best pokes </th>
+		</tr>
+		<tr>
+			<td> fun pokes </td>
+			<td> annoying pokes </td>
+			<td> butt pokes </td>
+		</tr>
+	</table>
+	<!--<tr> = row, <td> = data, <th> = column-->
+	<h2> Outside Web Links</h2>
+	<a href="https://www.youtube.com/watch?v=DLzxrzFCyOs"> Youtube </a>
+	<!-- <a> = anchor, inside anchor is href element-->
+	<h2> Inside Web Links Part 1</h2>
+	<ul>
+		<li> <a href="#Pokes">Pokes Section </a> </li>
+		<li> <a href="#Butt pokes">Butt Pokes Section </a> </li>
+		<li> <a href="#Annoying pokes">Annoying Pokes Section </a> </li>
+	</ul>
+	<h1> Images </h1>
+	<img src="https://dm2304files.storage.live.com/y4mrswbYE8VupUcLGw2jh0IMgyIkLERYVBrCj3X4sVkf4brIdLXMSwZvEprmQVphjfyoUOcF337RFiaruzmC51bcLO-hRLjhgM3JBGBJBPpMdGjXCrjHZfGgR-ILjhvhCbjjdI5Cc5FlAUKJfkm8NDUjRzBSjdgXHaIWbdb-rd1K2TpdfBBGjbDHPnm3nMBZMnK?width=1283&height=2046&cropmode=none" width="256.6" height="409.2">
+	<h1> Inside Web Links Part 2 </h1>
+	<h3> <a name="Pokes"> This is the section about pokes </a> </h3>
+	<p> The are fun </p>
+	<h3> <a name="Butt pokes"> This is the section about butt pokes </a> </h3>
+	<p> They are butt pokes </p>
+	<h3> <a name="Annoying pokes"> This is the section about Annoying pokes </a> </h3>
+	<p> They are annoying </p>
+	<!--<h1> Nested Elements </h1>
+	<p> nested elements are elements inside another another element, they are the child element. like the p element is the child element and the body element is the parent element of the p element</p>-->
+	<h1> One Line Text Box</h1>
+	<form action="" method="">
+		<label for="pokename">Poke Name: </label>
+		<input type="text" id="pokename" name="" size="50"> </br> </br>
+		<label for="poke2">Poke Receiver: </label>
+		<input type="text" id="poke2" name="">
+	</form>
+	<h1> Multi Line Text Box and Button</h1>
+	<form action="" method="">
+		<textarea style="resize:none" rows="20" cols="40"></textarea></br>
+		<input type="submit" value="Submit">
+		<!--value = text on button-->
+	</form>
+	<h1> Radio Buttons</h1>
+	<form action="" method="">
+		Yes to pokes:
+		<input type="radio" name="yesorno" value=""> </br>
+		No to pokes:
+		<input type="radio" name="yesorno" value="">
+		<!--names must be same for 1 choice-->
+	</form>
+	<h1> Checkbox </h1>
+	<form action="" method="">
+		<input type="checkbox" name=""> normal pokes </br>
+		<input type="checkbox" name=""> annoying pokes </br>
+		<input type="checkbox" name=""> butt pokes </br>
+	</form>
+	<h1> Number Input Box </h1>
+	<form action="" method="">
+		<input type="number" miN="0" max="69">
+	</form>
+	<h1> Drop-Down List</h1>
+	<form action="" method="">
+		<select>
+			<option value="Regular Poke">Regular Poke</option>
+			<option value="Annpoying Poke">Annoying Poke</option>
+			<option value="Butt Poke">Butt Poke</option>
+		</select>
+	</form>
+	<h1> Date and Number Box and Fieldbox and Legend Elements </h1>
+	<form>
+		<fieldset>
+		<legend>When do you want to be poked?</legend>
+		<input type="date" name="day">
+		Number of pokes: <input type="number" name="numpoke" min="1" max="69">
+		</fieldset>
+		<!--Fieldset makes the box, legend puts the words on the box line-->
+	</form>
+	<!--Escape Characters, http://pastebin.com/XnSyPkEM -->
+	<h1> Bold and Italic Elements </h1>
+	<p> This is a <b> bold element </b>. </p>
+	<p> This is a <strong> strong element </strong> </p>
+	<!--strong puts emphasis, mainly on text to speech-->
+	<p> This is an <i> italic element </i> </p>
+	<p> This is an <em> em element </em> </p>
+	<!--em puts emphasis, mainly on text to speech-->
+	<h1> Iframe Element </h1>
+	<iframe frameborder="1" width="200" height="200"
+		src="iframe1.html" name="ouriframe" id="ouriframe">
+	</iframe><br />
+	<a href="iframe1.html" target="ouriframe">switch to 1st document</a> </br>
+	<a href="iframe2.html" target="ouriframe">switch to 2nd document</a>
+	<h1> Sup and Sub Elements </h1>
+	<p> The expect said pokes are amazing on the 14<sup>rd</sup></p>
+	<p> There are plently of pokes to do in H<sub>2</sub>0 </p>
+	<h1> Title and Alt Attributes</h1>
+	<img src="firiel-l-asset.jpg" width="256.6" height="409.2" title="Lunar Tear" alt="Lunar Tear">
+	<!--Alt makes the text appear if the image can't-->
+	<h1> Audio Element </h1>
+	<audio controls autoplay loop dragable="true">
+		<source src="NieR Automata OST - City Ruins (Rays of Light).mp3"/>
+	</audio>
+	<h1> Video Element </h1>
+	<video controls>
+		<source src="NieR Automata Emil's Memories (Completion Cutscene).mp4"/>
+	</video>
 </body>
 </html>
